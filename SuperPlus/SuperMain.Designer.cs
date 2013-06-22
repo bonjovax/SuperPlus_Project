@@ -72,24 +72,24 @@
             this.iCenterTextAlign = new DevExpress.XtraBars.BarButtonItem();
             this.iRightTextAlign = new DevExpress.XtraBars.BarButtonItem();
             this.rgbiSkins = new DevExpress.XtraBars.RibbonGalleryBarItem();
-            this.ribbonImageCollectionLarge = new DevExpress.Utils.ImageCollection(this.components);
-            this.homeRibbonPage = new DevExpress.XtraBars.Ribbon.RibbonPage();
-            this.NavigationribbonPageGroup = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.ARRibbonPageGroup = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.APtRibbonPageGroup = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.skinsRibbonPageGroup = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.exitRibbonPageGroup = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.helpRibbonPage = new DevExpress.XtraBars.Ribbon.RibbonPage();
-            this.helpRibbonPageGroup = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.ribbonStatusBar = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
-            this.styleribbonPage = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem2 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem3 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem4 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem5 = new DevExpress.XtraBars.BarButtonItem();
             this.MenubarSubItem = new DevExpress.XtraBars.BarSubItem();
+            this.ribbonImageCollectionLarge = new DevExpress.Utils.ImageCollection(this.components);
+            this.homeRibbonPage = new DevExpress.XtraBars.Ribbon.RibbonPage();
+            this.NavigationribbonPageGroup = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ARRibbonPageGroup = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.APtRibbonPageGroup = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.exitRibbonPageGroup = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.styleribbonPage = new DevExpress.XtraBars.Ribbon.RibbonPage();
+            this.skinsRibbonPageGroup = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.helpRibbonPage = new DevExpress.XtraBars.Ribbon.RibbonPage();
+            this.helpRibbonPageGroup = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonStatusBar = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl)).BeginInit();
             this.splitContainerControl.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.navBarControl)).BeginInit();
@@ -274,7 +274,7 @@
             this.MenubarSubItem});
             this.ribbonControl.LargeImages = this.ribbonImageCollectionLarge;
             this.ribbonControl.Location = new System.Drawing.Point(0, 0);
-            this.ribbonControl.MaxItemId = 69;
+            this.ribbonControl.MaxItemId = 70;
             this.ribbonControl.Name = "ribbonControl";
             this.ribbonControl.PageHeaderItemLinks.Add(this.iAbout);
             this.ribbonControl.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
@@ -563,6 +563,44 @@
             this.rgbiSkins.Id = 60;
             this.rgbiSkins.Name = "rgbiSkins";
             // 
+            // barButtonItem1
+            // 
+            this.barButtonItem1.Caption = "Edit";
+            this.barButtonItem1.Id = 62;
+            this.barButtonItem1.Name = "barButtonItem1";
+            this.barButtonItem1.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText;
+            // 
+            // barButtonItem2
+            // 
+            this.barButtonItem2.Caption = "barButtonItem2";
+            this.barButtonItem2.Id = 63;
+            this.barButtonItem2.Name = "barButtonItem2";
+            // 
+            // barButtonItem3
+            // 
+            this.barButtonItem3.Caption = "barButtonItem3";
+            this.barButtonItem3.Id = 64;
+            this.barButtonItem3.Name = "barButtonItem3";
+            // 
+            // barButtonItem4
+            // 
+            this.barButtonItem4.Caption = "barButtonItem4";
+            this.barButtonItem4.Id = 65;
+            this.barButtonItem4.Name = "barButtonItem4";
+            // 
+            // barButtonItem5
+            // 
+            this.barButtonItem5.Caption = "barButtonItem5";
+            this.barButtonItem5.Id = 66;
+            this.barButtonItem5.Name = "barButtonItem5";
+            // 
+            // MenubarSubItem
+            // 
+            this.MenubarSubItem.Caption = "Menu";
+            this.MenubarSubItem.Id = 67;
+            this.MenubarSubItem.MenuCaption = "Menu";
+            this.MenubarSubItem.Name = "MenubarSubItem";
+            // 
             // ribbonImageCollectionLarge
             // 
             this.ribbonImageCollectionLarge.ImageSize = new System.Drawing.Size(32, 32);
@@ -613,13 +651,6 @@
             this.APtRibbonPageGroup.Name = "APtRibbonPageGroup";
             this.APtRibbonPageGroup.Text = "Accounts Payable";
             // 
-            // skinsRibbonPageGroup
-            // 
-            this.skinsRibbonPageGroup.ItemLinks.Add(this.rgbiSkins);
-            this.skinsRibbonPageGroup.Name = "skinsRibbonPageGroup";
-            this.skinsRibbonPageGroup.ShowCaptionButton = false;
-            this.skinsRibbonPageGroup.Text = "Skins";
-            // 
             // exitRibbonPageGroup
             // 
             this.exitRibbonPageGroup.ItemLinks.Add(this.iExit);
@@ -630,6 +661,20 @@
             // 
             this.ribbonPageGroup2.Name = "ribbonPageGroup2";
             this.ribbonPageGroup2.Text = "ribbonPageGroup2";
+            // 
+            // styleribbonPage
+            // 
+            this.styleribbonPage.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
+            this.skinsRibbonPageGroup});
+            this.styleribbonPage.Name = "styleribbonPage";
+            this.styleribbonPage.Text = "Styles";
+            // 
+            // skinsRibbonPageGroup
+            // 
+            this.skinsRibbonPageGroup.ItemLinks.Add(this.rgbiSkins);
+            this.skinsRibbonPageGroup.Name = "skinsRibbonPageGroup";
+            this.skinsRibbonPageGroup.ShowCaptionButton = false;
+            this.skinsRibbonPageGroup.Text = "Skins";
             // 
             // helpRibbonPage
             // 
@@ -653,50 +698,6 @@
             this.ribbonStatusBar.Name = "ribbonStatusBar";
             this.ribbonStatusBar.Ribbon = this.ribbonControl;
             this.ribbonStatusBar.Size = new System.Drawing.Size(1100, 31);
-            // 
-            // styleribbonPage
-            // 
-            this.styleribbonPage.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
-            this.skinsRibbonPageGroup});
-            this.styleribbonPage.Name = "styleribbonPage";
-            this.styleribbonPage.Text = "Styles";
-            // 
-            // barButtonItem1
-            // 
-            this.barButtonItem1.Caption = "Edit";
-            this.barButtonItem1.Id = 62;
-            this.barButtonItem1.Name = "barButtonItem1";
-            this.barButtonItem1.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText;
-            // 
-            // barButtonItem2
-            // 
-            this.barButtonItem2.Caption = "barButtonItem2";
-            this.barButtonItem2.Id = 63;
-            this.barButtonItem2.Name = "barButtonItem2";
-            // 
-            // barButtonItem3
-            // 
-            this.barButtonItem3.Caption = "barButtonItem3";
-            this.barButtonItem3.Id = 64;
-            this.barButtonItem3.Name = "barButtonItem3";
-            // 
-            // barButtonItem4
-            // 
-            this.barButtonItem4.Caption = "barButtonItem4";
-            this.barButtonItem4.Id = 65;
-            this.barButtonItem4.Name = "barButtonItem4";
-            // 
-            // barButtonItem5
-            // 
-            this.barButtonItem5.Caption = "barButtonItem5";
-            this.barButtonItem5.Id = 66;
-            this.barButtonItem5.Name = "barButtonItem5";
-            // 
-            // MenubarSubItem
-            // 
-            this.MenubarSubItem.Caption = "Menu";
-            this.MenubarSubItem.Id = 67;
-            this.MenubarSubItem.Name = "MenubarSubItem";
             // 
             // SuperMain
             // 

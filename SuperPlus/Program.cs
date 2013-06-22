@@ -21,8 +21,9 @@ namespace SuperPlus
             UserLookAndFeel.Default.SetSkinStyle("DevExpress Style");
 
             //Application.Run(new xLogin());// login
-            Application.Run(new SuperMain()); //this for main superplus
-            Application.Run(new Login());// login
+            //Application.Run(new SuperMain()); //this for main superplus
+            //Application.Run(new Login());// login
+            Application.Run(new DBConfig()); //test db coonfig form
             //Application.Run(new SuperMain()); //this for main superplus
         }
     }

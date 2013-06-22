@@ -15,5 +15,15 @@ namespace SuperPlus
         {
             InitializeComponent();
         }
+
+        private void DBConfig_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            //Application.ExitThread(); //
+        }
+
+        private void DBConfig_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
