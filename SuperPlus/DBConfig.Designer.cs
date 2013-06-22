@@ -107,7 +107,7 @@
             this.RDBMSgrpCtrl.Controls.Add(this.RDBMSradioGroup);
             this.RDBMSgrpCtrl.Location = new System.Drawing.Point(25, 169);
             this.RDBMSgrpCtrl.Name = "RDBMSgrpCtrl";
-            this.RDBMSgrpCtrl.Size = new System.Drawing.Size(181, 174);
+            this.RDBMSgrpCtrl.Size = new System.Drawing.Size(170, 224);
             this.RDBMSgrpCtrl.TabIndex = 8;
             this.RDBMSgrpCtrl.Text = "RDBMS Options";
             // 
@@ -118,10 +118,18 @@
             this.RDBMSradioGroup.Name = "RDBMSradioGroup";
             this.RDBMSradioGroup.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
             this.RDBMSradioGroup.Properties.Items.AddRange(new DevExpress.XtraEditors.Controls.RadioGroupItem[] {
-            new DevExpress.XtraEditors.Controls.RadioGroupItem(((short)(1)), "MYSQL Local"),
-            new DevExpress.XtraEditors.Controls.RadioGroupItem(((short)(2)), "MYSQL Server"),
-            new DevExpress.XtraEditors.Controls.RadioGroupItem(((short)(3)), "MYSQL ODBC DSN")});
-            this.RDBMSradioGroup.Size = new System.Drawing.Size(171, 143);
+            new DevExpress.XtraEditors.Controls.RadioGroupItem(((short)(1)), "MySQL Local"),
+            new DevExpress.XtraEditors.Controls.RadioGroupItem(((short)(2)), "MySQL Server"),
+            new DevExpress.XtraEditors.Controls.RadioGroupItem(((short)(3)), "MySQL ODBC DSN"),
+            new DevExpress.XtraEditors.Controls.RadioGroupItem(((short)(4)), "SQL Server Local"),
+            new DevExpress.XtraEditors.Controls.RadioGroupItem(((short)(5)), "SQL Server"),
+            new DevExpress.XtraEditors.Controls.RadioGroupItem(((short)(6)), "SQL Server ODBC DSN"),
+            new DevExpress.XtraEditors.Controls.RadioGroupItem(((short)(7)), "PostgreSQL Local"),
+            new DevExpress.XtraEditors.Controls.RadioGroupItem(((short)(8)), "PostgreSQL Server"),
+            new DevExpress.XtraEditors.Controls.RadioGroupItem(((short)(9)), "PostgreSQL ODBC DSN"),
+            new DevExpress.XtraEditors.Controls.RadioGroupItem(((short)(10)), "SQLite"),
+            new DevExpress.XtraEditors.Controls.RadioGroupItem(((short)(11)), "MS Access OLEDB")});
+            this.RDBMSradioGroup.Size = new System.Drawing.Size(158, 195);
             this.RDBMSradioGroup.TabIndex = 3;
             this.RDBMSradioGroup.ToolTip = "Select RDBMS option";
             // 
@@ -169,7 +177,7 @@
             this.Name = "DBConfig";
             this.Ribbon = this.ribbon;
             this.StatusBar = this.ribbonStatusBar;
-            this.Text = "DataBase  Configuration Setup";
+            this.Text = "Database Configuration Setup";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.DBConfig_FormClosing);
             this.Load += new System.EventHandler(this.DBConfig_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ribbon)).EndInit();
