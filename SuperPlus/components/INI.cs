@@ -61,12 +61,18 @@ public class IniFile
 
             return temp.ToString();
 		}
-		/*public Boolean IniCheckFileExist(string pathfilename)
+		public Boolean IniCheckFileExist(string pathfilename)
 		{
-			if File.Exists(@ + pathfilename)
-				return true;
-			else
-				return false;
+            bool found = false;
+            String path = ""; //Put your INI Path Here!
+
+            if (File.Exists(path)) //Checking File INI if its Exist
+            {
+                found = true;
+            }
+            else // Otherwise
+                found = false; //INI is not Found
+            return found;
 		}
-		public */
+		
 	}
