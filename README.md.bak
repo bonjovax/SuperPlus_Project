@@ -7,7 +7,7 @@ Developer(s):
 	* bonjovax
 
 Version 1.0.0.0
-======================================================
+======================
 
 	* Initial Sync of SuperPlus Project
 	* Draft Construction of Project
@@ -15,8 +15,9 @@ Version 1.0.0.0
 	* Document Requirements
 
 Customers:
-======================================================
-    * Vinz-Viman Manufacturing Corp
+=======================
+<<<<<<< HEAD
+       *
 
 
 
@@ -31,5 +32,6 @@ ATTENTION: We Must Identify Ourself so that we can track in our Version Control
 
 git config --global user.name "Your Name Here"
 git config --global user.email "your_email@example.com"
-=======================================================
-
+=======
+    * Vinz-Viman Manufacturing Corp
+>>>>>>> 36922ce6cc82a0c772f05d00b7dab770bdba8ace
