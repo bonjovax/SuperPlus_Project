@@ -32,11 +32,20 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SuperMain));
             this.splitContainerControl = new DevExpress.XtraEditors.SplitContainerControl();
             this.navBarControl = new DevExpress.XtraNavBar.NavBarControl();
+            this.ARNavBarGrp = new DevExpress.XtraNavBar.NavBarGroup();
+            this.APNavBarGrp = new DevExpress.XtraNavBar.NavBarGroup();
+            this.GLNavBarGrp = new DevExpress.XtraNavBar.NavBarGroup();
+            this.INVNavBarGrp = new DevExpress.XtraNavBar.NavBarGroup();
+            this.PONavBarGrp = new DevExpress.XtraNavBar.NavBarGroup();
+            this.SONavBarGrp = new DevExpress.XtraNavBar.NavBarGroup();
+            this.MANNAvBarGrp = new DevExpress.XtraNavBar.NavBarGroup();
+            this.CRMNavBarGrp = new DevExpress.XtraNavBar.NavBarGroup();
             this.mailGroup = new DevExpress.XtraNavBar.NavBarGroup();
             this.inboxItem = new DevExpress.XtraNavBar.NavBarItem();
             this.outboxItem = new DevExpress.XtraNavBar.NavBarItem();
             this.draftsItem = new DevExpress.XtraNavBar.NavBarItem();
             this.trashItem = new DevExpress.XtraNavBar.NavBarItem();
+            this.SettingsNavBarGrp = new DevExpress.XtraNavBar.NavBarGroup();
             this.calendarItem = new DevExpress.XtraNavBar.NavBarItem();
             this.tasksItem = new DevExpress.XtraNavBar.NavBarItem();
             this.navbarImageListLarge = new System.Windows.Forms.ImageList(this.components);
@@ -97,6 +106,7 @@
             this.barButtonItem11 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem12 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem13 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem16 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem14 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem15 = new DevExpress.XtraBars.BarButtonItem();
             this.barListItem1 = new DevExpress.XtraBars.BarListItem();
@@ -112,16 +122,7 @@
             this.helpRibbonPage = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.helpRibbonPageGroup = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonStatusBar = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
-            this.barButtonItem16 = new DevExpress.XtraBars.BarButtonItem();
-            this.ARNavBarGrp = new DevExpress.XtraNavBar.NavBarGroup();
-            this.APNavBarGrp = new DevExpress.XtraNavBar.NavBarGroup();
-            this.GLNavBarGrp = new DevExpress.XtraNavBar.NavBarGroup();
-            this.INVNavBarGrp = new DevExpress.XtraNavBar.NavBarGroup();
-            this.PONavBarGrp = new DevExpress.XtraNavBar.NavBarGroup();
-            this.SONavBarGrp = new DevExpress.XtraNavBar.NavBarGroup();
-            this.MANNAvBarGrp = new DevExpress.XtraNavBar.NavBarGroup();
-            this.CRMNavBarGrp = new DevExpress.XtraNavBar.NavBarGroup();
-            this.SettingsNavBarGrp = new DevExpress.XtraNavBar.NavBarGroup();
+            this.barButtonItem17 = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl)).BeginInit();
             this.splitContainerControl.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.navBarControl)).BeginInit();
@@ -187,6 +188,47 @@
             this.navBarControl.Text = "navBarControl1";
             this.navBarControl.Click += new System.EventHandler(this.navBarControl_Click);
             // 
+            // ARNavBarGrp
+            // 
+            this.ARNavBarGrp.Caption = "Accounts Receivable";
+            this.ARNavBarGrp.Expanded = true;
+            this.ARNavBarGrp.Name = "ARNavBarGrp";
+            // 
+            // APNavBarGrp
+            // 
+            this.APNavBarGrp.Caption = "Accounts Payable";
+            this.APNavBarGrp.Name = "APNavBarGrp";
+            // 
+            // GLNavBarGrp
+            // 
+            this.GLNavBarGrp.Caption = "General Ledger";
+            this.GLNavBarGrp.Name = "GLNavBarGrp";
+            // 
+            // INVNavBarGrp
+            // 
+            this.INVNavBarGrp.Caption = "Inventory";
+            this.INVNavBarGrp.Name = "INVNavBarGrp";
+            // 
+            // PONavBarGrp
+            // 
+            this.PONavBarGrp.Caption = "Purchase Order";
+            this.PONavBarGrp.Name = "PONavBarGrp";
+            // 
+            // SONavBarGrp
+            // 
+            this.SONavBarGrp.Caption = "Sales Order";
+            this.SONavBarGrp.Name = "SONavBarGrp";
+            // 
+            // MANNAvBarGrp
+            // 
+            this.MANNAvBarGrp.Caption = "Manufacturing";
+            this.MANNAvBarGrp.Name = "MANNAvBarGrp";
+            // 
+            // CRMNavBarGrp
+            // 
+            this.CRMNavBarGrp.Caption = "Customer Relationship Management";
+            this.CRMNavBarGrp.Name = "CRMNavBarGrp";
+            // 
             // mailGroup
             // 
             this.mailGroup.Caption = "Mail";
@@ -221,6 +263,11 @@
             this.trashItem.Caption = "Trash";
             this.trashItem.Name = "trashItem";
             this.trashItem.SmallImageIndex = 3;
+            // 
+            // SettingsNavBarGrp
+            // 
+            this.SettingsNavBarGrp.Caption = "Settings";
+            this.SettingsNavBarGrp.Name = "SettingsNavBarGrp";
             // 
             // calendarItem
             // 
@@ -326,10 +373,11 @@
             this.barButtonItem13,
             this.barButtonItem14,
             this.barButtonItem15,
-            this.barButtonItem16});
+            this.barButtonItem16,
+            this.barButtonItem17});
             this.ribbonControl.LargeImages = this.ribbonImageCollectionLarge;
             this.ribbonControl.Location = new System.Drawing.Point(0, 0);
-            this.ribbonControl.MaxItemId = 99;
+            this.ribbonControl.MaxItemId = 100;
             this.ribbonControl.Name = "ribbonControl";
             this.ribbonControl.PageHeaderItemLinks.Add(this.iAbout);
             this.ribbonControl.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
@@ -738,7 +786,8 @@
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem13),
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem16),
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem14),
-            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem15)});
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem15),
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem17)});
             this.MenubarSubItem.Name = "MenubarSubItem";
             // 
             // barButtonItem6
@@ -788,6 +837,12 @@
             this.barButtonItem13.Caption = "&Customer Relationship Management";
             this.barButtonItem13.Id = 95;
             this.barButtonItem13.Name = "barButtonItem13";
+            // 
+            // barButtonItem16
+            // 
+            this.barButtonItem16.Caption = "&E-mails";
+            this.barButtonItem16.Id = 98;
+            this.barButtonItem16.Name = "barButtonItem16";
             // 
             // barButtonItem14
             // 
@@ -905,57 +960,11 @@
             this.ribbonStatusBar.Ribbon = this.ribbonControl;
             this.ribbonStatusBar.Size = new System.Drawing.Size(1100, 31);
             // 
-            // barButtonItem16
+            // barButtonItem17
             // 
-            this.barButtonItem16.Caption = "&E-mails";
-            this.barButtonItem16.Id = 98;
-            this.barButtonItem16.Name = "barButtonItem16";
-            // 
-            // ARNavBarGrp
-            // 
-            this.ARNavBarGrp.Caption = "Accounts Receivable";
-            this.ARNavBarGrp.Expanded = true;
-            this.ARNavBarGrp.Name = "ARNavBarGrp";
-            // 
-            // APNavBarGrp
-            // 
-            this.APNavBarGrp.Caption = "Accounts Payable";
-            this.APNavBarGrp.Name = "APNavBarGrp";
-            // 
-            // GLNavBarGrp
-            // 
-            this.GLNavBarGrp.Caption = "General Ledger";
-            this.GLNavBarGrp.Name = "GLNavBarGrp";
-            // 
-            // INVNavBarGrp
-            // 
-            this.INVNavBarGrp.Caption = "Inventory";
-            this.INVNavBarGrp.Name = "INVNavBarGrp";
-            // 
-            // PONavBarGrp
-            // 
-            this.PONavBarGrp.Caption = "Purchase Order";
-            this.PONavBarGrp.Name = "PONavBarGrp";
-            // 
-            // SONavBarGrp
-            // 
-            this.SONavBarGrp.Caption = "Sales Order";
-            this.SONavBarGrp.Name = "SONavBarGrp";
-            // 
-            // MANNAvBarGrp
-            // 
-            this.MANNAvBarGrp.Caption = "Manufacturing";
-            this.MANNAvBarGrp.Name = "MANNAvBarGrp";
-            // 
-            // CRMNavBarGrp
-            // 
-            this.CRMNavBarGrp.Caption = "Customer Relationship Management";
-            this.CRMNavBarGrp.Name = "CRMNavBarGrp";
-            // 
-            // SettingsNavBarGrp
-            // 
-            this.SettingsNavBarGrp.Caption = "Settings";
-            this.SettingsNavBarGrp.Name = "SettingsNavBarGrp";
+            this.barButtonItem17.Caption = "Test for Removal";
+            this.barButtonItem17.Id = 99;
+            this.barButtonItem17.Name = "barButtonItem17";
             // 
             // SuperMain
             // 
@@ -1086,6 +1095,7 @@
         private DevExpress.XtraNavBar.NavBarGroup CRMNavBarGrp;
         private DevExpress.XtraNavBar.NavBarGroup SettingsNavBarGrp;
         private DevExpress.XtraBars.BarButtonItem barButtonItem16;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem17;
 
     }
 }
