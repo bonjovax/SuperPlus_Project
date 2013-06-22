@@ -49,5 +49,10 @@ namespace SuperPlus
 
         }
 
+        private void navBarControl_Click(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
