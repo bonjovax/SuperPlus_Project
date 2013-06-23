@@ -25,3 +25,4 @@ C:\SuperPlus_Project\SuperPlus\obj\Debug\SuperPlus.csproj.GenerateResource.Cache
 C:\SuperPlus_Project\SuperPlus\obj\Debug\SuperPlus.exe.licenses
 C:\SuperPlus_Project\SuperPlus\obj\Debug\SuperPlus.exe
 C:\SuperPlus_Project\SuperPlus\obj\Debug\SuperPlus.pdb
+C:\SuperPlus_Project\SuperPlus\obj\Debug\SuperPlus.csprojResolveAssemblyReference.cache

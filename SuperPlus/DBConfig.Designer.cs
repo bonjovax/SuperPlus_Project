@@ -32,7 +32,7 @@
             this.ribbon = new DevExpress.XtraBars.Ribbon.RibbonControl();
             this.barBtnItmOK = new DevExpress.XtraBars.BarButtonItem();
             this.barBtnItemCancel = new DevExpress.XtraBars.BarButtonItem();
-            this.homeribbonPage = new DevExpress.XtraBars.Ribbon.RibbonPage();
+            this.optionribbonPage = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.homeribbonPageGroup = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonStatusBar = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
             this.RDBMSgrpCtrl = new DevExpress.XtraEditors.GroupControl();
@@ -63,7 +63,7 @@
             this.ribbon.MaxItemId = 4;
             this.ribbon.Name = "ribbon";
             this.ribbon.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
-            this.homeribbonPage});
+            this.optionribbonPage});
             this.ribbon.Size = new System.Drawing.Size(916, 144);
             this.ribbon.StatusBar = this.ribbonStatusBar;
             // 
@@ -82,12 +82,12 @@
             this.barBtnItemCancel.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("barBtnItemCancel.LargeGlyph")));
             this.barBtnItemCancel.Name = "barBtnItemCancel";
             // 
-            // homeribbonPage
+            // optionribbonPage
             // 
-            this.homeribbonPage.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
+            this.optionribbonPage.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.homeribbonPageGroup});
-            this.homeribbonPage.Name = "homeribbonPage";
-            this.homeribbonPage.Text = "Home";
+            this.optionribbonPage.Name = "optionribbonPage";
+            this.optionribbonPage.Text = "Options";
             // 
             // homeribbonPageGroup
             // 
@@ -195,7 +195,7 @@
         #endregion
 
         private DevExpress.XtraBars.Ribbon.RibbonControl ribbon;
-        private DevExpress.XtraBars.Ribbon.RibbonPage homeribbonPage;
+        private DevExpress.XtraBars.Ribbon.RibbonPage optionribbonPage;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup homeribbonPageGroup;
         private DevExpress.XtraBars.Ribbon.RibbonStatusBar ribbonStatusBar;
         private DevExpress.XtraBars.BarButtonItem barBtnItmOK;
